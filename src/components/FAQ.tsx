@@ -79,7 +79,7 @@ const FAQ = () => {
           return (
             <div 
               key={index}
-              className="bg-[#0a0a0c] border border-white/5 rounded-2xl overflow-hidden transition-all duration-300 hover:border-white/10"
+              className="bg-[#0a0a0c] border border-white/5 rounded-2xl overflow-hidden transition-all duration-300"
             >
               <button
                 onClick={() => toggleFAQ(index)}

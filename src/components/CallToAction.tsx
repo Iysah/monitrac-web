@@ -26,18 +26,26 @@ const CallToAction = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <button className="bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-6 py-3 transition-colors flex items-center gap-3">
-              <svg className="h-8 w-8" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.95 2.95 0 01-.001-20.372zM15.208 13.414L7.326 21.295a4.343 4.343 0 003.553 1.144c1.134-.144 2.19-.696 2.977-1.57l1.352-1.35-6.046-6.105zM16.617 10.59l4.98-4.98a4.34 4.34 0 00-.928-2.616c-.84-.962-2.022-1.467-3.23-1.467-.424 0-.85.06-1.265.183l-5.6 5.6 6.043 3.28zM5.912 10.59L12.016 4.485a2.96 2.96 0 011.084-1.58L5.912 10.59z"/></svg>
+            <button className="bg-white/5 border border-white/10 rounded-xl px-4 py-2 flex items-center gap-2">
+              <svg className="h-6 w-6" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+                <path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4" />
+                <path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853" />
+                <path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05" />
+                <path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335" />
+              </svg>
               <div className="text-left">
                 <div className="text-[10px] uppercase leading-none text-gray-400">Get it on</div>
-                <div className="text-base font-bold text-white">Google Play</div>
+                <div className="text-sm font-bold">Google Play</div>
               </div>
             </button>
-            <button className="bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-6 py-3 transition-colors flex items-center gap-3">
-              <svg className="h-8 w-8" viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5c0 82.6 54.4 240.4 126.9 240.4 26.4 0 36.9-19.5 68.8-19.5 31.2 0 40.5 19.5 68.1 19.5 30.1 0 54.1-39.7 75.8-74.5 21.6-35.1 27.6-62.1 27.6-63.5-56.5-22.3-56.5-86.8-52.5-107.2zm-67.4-159c16.3-20.3 26.6-48.7 23.7-74.5-24.1 1.2-52.9 16.2-70 36.2-15.1 17.5-27.4 46.2-24.2 73.9 26.7 2 54.8-16.1 70.5-35.6z"/></svg>
+                  
+            <button className="bg-white/5 border border-white/10 rounded-xl px-4 py-2 flex items-center gap-2">
+              <svg className="h-6 w-6" viewBox="-52.01 0 560.035 560.035" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                <path d="M380.844 297.529c.787 84.752 74.349 112.955 75.164 113.314-.622 1.988-11.754 40.191-38.756 79.652-23.343 34.117-47.568 68.107-85.731 68.811-37.499.691-49.557-22.236-92.429-22.236-42.859 0-56.256 21.533-91.753 22.928-36.837 1.395-64.889-36.891-88.424-70.883-48.093-69.53-84.846-196.475-35.496-282.165 24.516-42.554 68.328-69.501 115.882-70.192 36.173-.69 70.315 24.336 92.429 24.336 22.1 0 63.59-30.096 107.208-25.676 18.26.76 69.517 7.376 102.429 55.552-2.652 1.644-61.159 35.704-60.523 106.559M310.369 89.418C329.926 65.745 343.089 32.79 339.498 0 311.308 1.133 277.22 18.785 257 42.445c-18.121 20.952-33.991 54.487-29.709 86.628 31.421 2.431 63.52-15.967 83.078-39.655" />
+              </svg>
               <div className="text-left">
                 <div className="text-[10px] uppercase leading-none text-gray-400">Download on the</div>
-                <div className="text-base font-bold text-white">App Store</div>
+                <div className="text-sm font-bold">App Store</div>
               </div>
             </button>
           </div>
