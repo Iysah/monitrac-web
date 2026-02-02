@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-white/5 pt-8 text-center">
+        <div className="border-t border-white/5 pt-8 text-left">
           <p className="text-gray-500 text-sm">
             &copy; {new Date().getFullYear()} Monitrac. All rights reserved.
           </p>
